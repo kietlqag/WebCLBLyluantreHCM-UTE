@@ -34,7 +34,7 @@ export function Header() {
           </div>
           <div className="flex items-center gap-2">
             <Mail className="w-4 h-4" />
-            <span className="text-xs md:text-sm">CLBLYLUANTRE.2018.HCA@GMAIL.COM</span>
+            <span className="text-xs md:text-sm">clblyluantre.hcmute@gmail.com</span>
           </div>
         </div>
       </div>
