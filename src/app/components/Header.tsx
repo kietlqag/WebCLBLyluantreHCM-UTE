@@ -34,7 +34,12 @@ export function Header() {
           </div>
           <div className="flex items-center gap-2">
             <Mail className="w-4 h-4" />
-            <span className="text-xs md:text-sm">clblyluantre.hcmute@gmail.com</span>
+            <a
+              href="mailto:clblyluantre.hcmute@gmail.com"
+              className="text-xs md:text-sm hover:underline"
+            >
+              clblyluantre.hcmute@gmail.com
+            </a>
           </div>
         </div>
       </div>
