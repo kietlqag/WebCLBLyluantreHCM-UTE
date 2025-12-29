@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About Section */}
           <div>
-            <h3 className="font-bold text-lg mb-4">CLB LÝ LUẬN TRẺ UTE</h3>
+            <h3 className="font-bold text-lg mb-4">CÂU LẠC BỘ LÝ LUẬN TRẺ HCM-UTE</h3>
             <p className="text-sm text-gray-300 mb-4">
               Câu lạc bộ Lý luận trẻ - Trường Đại học Công nghệ Kỹ thuật TP. Hồ Chí Minh
             </p>
@@ -58,16 +58,16 @@ export function Footer() {
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                 <span className="text-gray-300">
-                  01 Võ Văn Ngân, Phường Linh Chiểu, Thủ Đức, TP. Hồ Chí Minh
+                  01 Võ Văn Ngân, Phường Thủ Đức, TP. Hồ Chí Minh
                 </span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <span className="text-gray-300">clblyluantre.2018.hca@gmail.com</span>
+                <span className="text-gray-300">clblyluantre.hcmute@gmail.com</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <span className="text-gray-300">(028) 1234 5678</span>
+                <span className="text-gray-300">0799 673 248 (Đồng chí Ngô Gia Hân - Phó Chủ nhiệm CLB)</span>
               </li>
             </ul>
           </div>
