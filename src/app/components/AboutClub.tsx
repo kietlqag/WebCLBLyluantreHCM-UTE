@@ -196,27 +196,33 @@ export function AboutClub() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
             <div className="text-center">
               <div className="bg-gradient-to-br from-blue-100 to-blue-50 border-2 border-blue-300 px-6 py-4 rounded-lg">
-                <p className="font-semibold text-gray-800">BAN TRUYỀN THÔNG</p>
+                <p className="font-semibold text-gray-800">
+                  LÝ LUẬN - HỌC THUẬT
+                </p>
                 <p className="text-sm text-gray-600 mt-2">
-                  Quản lý nội dung, truyền thông, media
+                  Nghiên cứu, biên soạn và phát triển nội dung lý luận
                 </p>
               </div>
             </div>
 
             <div className="text-center">
               <div className="bg-gradient-to-br from-yellow-100 to-yellow-50 border-2 border-yellow-300 px-6 py-4 rounded-lg">
-                <p className="font-semibold text-gray-800">BAN TỔ CHỨC</p>
+                <p className="font-semibold text-gray-800">
+                  HÀNH CHÍNH - SỰ KIỆN
+                </p>
                 <p className="text-sm text-gray-600 mt-2">
-                  Điều phối, tổ chức sự kiện
+                  Điều phối hoạt động, quản trị hồ sơ và tổ chức sự kiện
                 </p>
               </div>
             </div>
 
             <div className="text-center">
               <div className="bg-gradient-to-br from-pink-100 to-pink-50 border-2 border-pink-300 px-6 py-4 rounded-lg">
-                <p className="font-semibold text-gray-800">BAN HỌC THUẬT</p>
+                <p className="font-semibold text-gray-800">
+                  TRUYỀN THÔNG - NỘI DUNG SỐ
+                </p>
                 <p className="text-sm text-gray-600 mt-2">
-                  Nghiên cứu, biên soạn tài liệu
+                  Xây dựng kế hoạch truyền thông, quản lý nội dung số
                 </p>
               </div>
             </div>
