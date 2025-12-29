@@ -1,14 +1,33 @@
+import { useEffect, useState } from 'react';
 import { Mail } from 'lucide-react';
 
 export function Header() {
+  const [now, setNow] = useState(() => new Date());
+
+  useEffect(() => {
+    const intervalId = window.setInterval(() => {
+      setNow(new Date());
+    }, 1000);
+
+    return () => window.clearInterval(intervalId);
+  }, []);
+
+  const pad2 = (value: number) => String(value).padStart(2, '0');
+  const formattedDate = `${pad2(now.getDate())}/${pad2(
+    now.getMonth() + 1
+  )}/${now.getFullYear()}`;
+  const formattedTime = `${pad2(now.getHours())}:${pad2(
+    now.getMinutes()
+  )}:${pad2(now.getSeconds())}`;
+
   return (
     <header className="bg-white shadow-sm">
       {/* Top Info Bar */}
       <div className="bg-[#1bb143] text-white py-2 px-4">
         <div className="container mx-auto flex justify-between items-center text-sm">
           <div className="flex items-center gap-2">
-            <span>29/12/2025</span>
-            <span>15:42:09</span>
+            <span>{formattedDate}</span>
+            <span>{formattedTime}</span>
           </div>
           <div className="hidden md:block text-center flex-1">
             <span>Kế hoạch số 01-KH/LT/LCD-CLB về việc Tổ chức Tọa đàm "Nâng cao chất lượng học tập các học phần lý luận chính trị"</span>
